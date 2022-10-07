@@ -82,12 +82,12 @@ secret.addEventListener("click", function(){
 })
 
 resources.addEventListener("click", function(){
-  resourcessection.scrollIntoView(true);
+  resourcessection.scrollIntoView({behavior:"smooth"});
   open = false;
 })
 
 reachus.addEventListener("click", function(){
-  footersection.scrollIntoView(true);
+  footersection.scrollIntoView({behavior:"smooth"});
   open = false;
 })
 
