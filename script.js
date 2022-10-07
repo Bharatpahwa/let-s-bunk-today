@@ -1,5 +1,4 @@
 "use strict";
-alert("Welcome to Let's Bunk Today");
 const menu = document.querySelector("#menuToggle");
 const openmenu = document.querySelector(".input-field");
 const Sidemenu = document.querySelector(".side-menu");
