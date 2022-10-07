@@ -12,6 +12,9 @@ const resources = document.querySelector("#menu-resources");
 const reachus = document.querySelector("#menu-reachus");
 const footersection = document.querySelector(".whole-footer");
 const resourcessection = document.querySelector(".head");
+const secretSection = document.querySelector(".below-hero");
+const WholeSection = document.querySelector(".screen-part1");
+const toTop = document.querySelector(".totop");
 
 const downArow2 = document.querySelector("#downarrow-2");
 const resourcesLink2 = document.querySelector("#r-1-2");
@@ -77,8 +80,14 @@ home.addEventListener("click" , function(){
 })
 
 secret.addEventListener("click", function(){
-  window.scrollTo(0, 700);
+  secretSection.scrollIntoView({behavior:"smooth"});
   open = false;
+})
+
+toTop.addEventListener("click", function(){
+  WholeSection.scrollIntoView({behavior:"smooth"});
+  open = false;
+  // preventdefault();
 })
 
 resources.addEventListener("click", function(){
