@@ -1,0 +1,355 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: auto;
+  color:white;
+  background-color: rgba(14, 2, 48, 0.249);
+  font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  gap: 86px;  
+  align-items: center;
+  padding: 18px 18px;
+}
+
+.site-name{
+  text-align: center;
+  margin-top: -8px;
+  font-size: 18px;
+  animation: todown 1s 1;
+}
+
+.logo{
+  animation: tomenuleft 1s linear ;
+}
+
+#menuToggle{
+  animation: tomenuright 1s linear ;
+}
+
+.main-heading {
+  text-align: center;
+  padding: 25px 0px;
+  margin-bottom: 20px;
+  width: 360px;
+  font-size: 24px;
+  animation: todown .3s  linear ;
+}
+
+.heart{
+  margin-top: -20px;
+  margin-bottom: 20px;
+  animation-delay: calc(.1s * var(--i));
+  animation: waviy 1s infinite;
+  animation: type 3s steps(60, 120);
+}
+
+.dancingstudents{
+  margin-top: 30px;
+  height: 260px;
+  width: 300PX;
+}
+
+.screen-part1{
+  background-image: linear-gradient(to top right , rgba(14, 2, 48, 0.801),  #050321  , rgb(10, 3, 26) ); 
+}
+
+.community{
+  animation: community 1s infinite ;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 50px;
+  padding: 12px 16px;
+  background-color: #5c437165;
+  border: 1px solid white;
+  margin-top: 50px;
+  box-shadow: 2px 2px 10px 2px inset black;
+}
+
+.hero , .below-hero , .r-1 , .r-1-link , .resources{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-secret{
+  margin-top: 50px;
+}
+
+.hidden {
+  cursor: pointer;
+  filter: blur(2px);
+  animation: shakey 1s infinite ;
+  background-color: #5c437165;
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  backdrop-filter: blur(4px);
+  margin-top: 40px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 10px 2px inset black;
+}
+
+
+.mobile{
+  height: 600px;
+  width: 330px;
+}
+.head{
+  text-align: center;
+  animation: slightrotate2 3s 10 ;
+  font-size: 24px;
+  margin: 12px;
+}
+
+.footer{
+  transform: translateY(190px);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color:#fff6f6 ;
+  color: black;
+  width: 330px;
+  height: 200PX;
+  align-items: center;
+  margin:  0px auto 0px auto;
+  border-radius: 10px;
+  gap: 30px; 
+}
+
+.suggestion{
+  height: 150px;
+  width: 150px;
+}
+
+.footer p {
+  margin-left: -20px;
+  font-size: 16px;
+}
+
+.rightside-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#anysuggestion {
+font-size: 15px;
+margin-left: -40px;
+}
+
+#at-last{
+  margin-top: 120px;
+  font-size: 12px;
+  background-color: #3F244F;
+  gap: 80px;  
+  padding: 130px 25px 20px 25px;
+}
+
+.whole-footer{
+  margin-top: -130px;
+}
+
+.r-1{
+gap: 19px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.r-1-link{
+  box-shadow: 5px 5px 5px 2px  rgba(0, 0, 0, 0.859);
+  width: 300px;
+  border-radius: 50px;
+  padding: 12px;
+  background-color:#20fff439 ;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+
+.shopping{
+  text-decoration: none;
+  color: rgb(147, 219, 255);
+}
+
+.go-to{
+  transform: rotate(40deg);
+  transform: translateY(2px);
+  margin-right: 5px;
+  animation: leftright 1s infinite ;
+}
+
+.r-1-head{
+  margin-left: 10px;
+ 
+}
+.resources{
+  margin-top: -30px;
+}
+
+.head{
+  margin-top: -30px;
+  margin-bottom: 40px;
+}
+.resources-heading{
+  box-shadow: 5px 5px 10px 4px inset rgba(0, 0, 0, 0.607);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  width: 300px;
+  border-radius: 50px;
+  padding: 6px;
+  border: 1px solid white;
+  background-color: #5c437184;
+}
+
+.resources{
+  padding: 20px;
+}
+
+.totop{
+  text-decoration: none;
+  color: white;
+}
+
+#r-1-1 , #r-1-2 , #r-1-3 , #r-1-4 ,#r-1-5,  #r-1-6,  #r-1-7 ,#r-1-8 ,#r-1-9 ,#r-1-10 {
+  animation: tomenuright .5s 1;
+  display: none;
+}
+
+.whatsapp{
+  animation: community 1s infinite ;
+}
+
+#mail{
+  animation: community 1s infinite ;
+}
+
+#telegram{
+  animation: community 1s infinite 2s ;
+}
+
+#discord{
+ animation: community 1s infinite  4s ;
+}
+
+.downarrow{
+ cursor: pointer;
+ margin-top: 8px;
+ margin-right: 4px;
+} 
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#menuToggle input {
+  display: flex;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 1; 
+}
+
+#menuToggle span{
+  width: 25px;
+  height: 3px;
+  margin-bottom: 6px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  transition: all .5s cubic-bezier(.08,.81,.87,.71);
+}
+
+#span1 {
+  transform-origin: 4px -6px;
+}
+
+#menuToggle input:checked ~ #span1 {
+  background-color: #f6f6f6;
+  transform: rotate(45deg) translate(8px);
+}
+
+#menuToggle input:checked ~ #span2 {
+  background-color: white;
+  transform: rotate(495deg) translate(4px);   
+}
+
+#menuToggle input:checked ~ #span3 {
+  background-color:white;
+  transform: rotate(45deg);
+  opacity: 0;
+}
+
+.allofit{
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to left top , rgb(14, 2, 48),  #050320  , rgb(10, 3, 26) ); 
+}
+
+.side-menu{
+  box-shadow: 5px 6px 5px 5px  rgba(33, 32, 32, 0.695);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  justify-content:center ;
+  top: 11%;
+  text-align: center;
+  background-color: #3f244f4c;
+  backdrop-filter: blur(20px);
+  padding: 20px 100px 19px 100px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  display: none;
+  height: 66vh; 
+  font-weight: bolder;
+  animation: toleft 1s 1 ;
+  border-radius: 60px;
+}
+
+.side-item-1{
+  box-shadow: 5px 5px 5px black inset;
+  width: 200px;
+  border: 2px solid white;
+  padding: 12px ;
+  background-color: #3f244f74;
+  border-radius: 50px;
+  backdrop-filter: blur(50px);
+  cursor: pointer;
+}
+
+
+.side-item-1:hover{
+  transform: scale(1.1);
+  background-color: #2b1837;
+  backdrop-filter: blur(0px);
+}
+.cp-amazon , .cp-rapido , .cp-zepto , .cp-ola{
+  height: 22px;
+  width: 20px;
+  padding-left: 6px;
+  cursor: pointer;
+}
+.code{
+  color: #f6f6f6;
+}
