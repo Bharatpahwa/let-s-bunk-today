@@ -60,6 +60,7 @@ let open6 = false;
 let open7 = false;
 let open8 = false;
 let open9 = false;
+let open10 = false;
 
 menu.addEventListener("click", function(){
   if(openmenu.checked){
@@ -226,6 +227,20 @@ downArow9.addEventListener("click", function () {
     resourcesLink9.style.display = "none";
     downArow9.style.animation = "rotateclock 1s 1"    
     open9 = false;
+  }
+});
+
+downArow10.addEventListener("click", function () {
+  if (open10 === false) {
+    downArow10.style.transform = "rotate(180deg)";
+    downArow10.style.animation = "antirotateclock 1s 1"
+    resourcesLink10.style.display = "flex";
+    open10 = true;
+  } else if (open10 === true) {
+    downArow10.style.transform = "rotate(0deg)";
+    resourcesLink10.style.display = "none";
+    downArow10.style.animation = "rotateclock 1s 1"    
+    open10 = false;
   }
 });
 
