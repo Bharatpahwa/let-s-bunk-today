@@ -323,7 +323,7 @@ margin-bottom: 40px;
   display: none;
   height: 66vh; 
   font-weight: bolder;
-  animation: toleft 1s 1 ;
+  animation: toleft .3s 1 ;
   border-radius: 60px;
 }
 
