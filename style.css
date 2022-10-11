@@ -155,8 +155,8 @@ margin-left: -40px;
   margin-top: 120px;
   font-size: 12px;
   background-color: #3F244F;
-  gap: 80px;  
-  padding: 130px 25px 20px 25px;
+  gap:60px;  
+  padding: 100px 20px 20px 20px;
 }
 
 .whole-footer{
@@ -352,4 +352,8 @@ margin-bottom: 40px;
 }
 .code{
   color: #f6f6f6;
+}
+.icons , .whatsapp{
+  margin:  10px 0px 0px -20px;
+
 }
