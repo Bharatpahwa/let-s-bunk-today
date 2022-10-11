@@ -344,7 +344,7 @@ margin-bottom: 40px;
   background-color: #2b1837;
   backdrop-filter: blur(0px);
 }
-.cp-amazon , .cp-rapido , .cp-zepto , .cp-ola , cp-c-blocks{
+.cp-amazon , .cp-rapido , .cp-zepto , .cp-ola , cp-c-block{
   height: 22px;
   width: 20px;
   padding-left: 6px;
@@ -358,7 +358,6 @@ margin-bottom: 40px;
 }
 
 #feedback{
-
 margin:  80px auto 0px auto ;
 background-color: #250339;
 border: 1px solid white;
