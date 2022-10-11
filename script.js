@@ -40,6 +40,9 @@ const resourcesLink9 = document.querySelector("#r-1-9");
 const downArow10 = document.querySelector("#downarrow-10");
 const resourcesLink10 = document.querySelector("#r-1-10");
 
+const downArow11 = document.querySelector("#downarrow-11");
+const resourcesLink11 = document.querySelector("#r-1-11");
+
 const rapidoCode = document.querySelector(".cp-rapido");
 const AmazonPayCode = document.querySelector(".cp-amazon");
 const AmazonPay = document.querySelector("#amazon-pay-code");
@@ -60,6 +63,8 @@ let open6 = false;
 let open7 = false;
 let open8 = false;
 let open9 = false;
+let open10 = false;
+let open11 = false;
 
 menu.addEventListener("click", function(){
   if(openmenu.checked){
@@ -92,7 +97,7 @@ reachus.addEventListener("click", function(){
 
 hidden.addEventListener("click" , function(){
   hidden.style.filter = "none";
-  hidden.textContent= "college teaches you everything except how useless college is."
+  hidden.textContent= "College teaches you everything except how useless college is."
 })
 
 downArow.addEventListener("click", function () {
@@ -226,6 +231,34 @@ downArow9.addEventListener("click", function () {
     resourcesLink9.style.display = "none";
     downArow9.style.animation = "rotateclock 1s 1"    
     open9 = false;
+  }
+});
+
+downArow10.addEventListener("click", function () {
+  if (open10 === false) {
+    downArow10.style.transform = "rotate(180deg)";
+    downArow10.style.animation = "antirotateclock 1s 1"
+    resourcesLink10.style.display = "flex";
+    open10 = true;
+  } else if (open10 === true) {
+    downArow10.style.transform = "rotate(0deg)";
+    resourcesLink10.style.display = "none";
+    downArow10.style.animation = "rotateclock 1s 1"    
+    open10 = false;
+  }
+});
+
+downArow11.addEventListener("click", function () {
+  if (open11 === false) {
+    downArow11.style.transform = "rotate(180deg)";
+    downArow11.style.animation = "antirotateclock 1s 1"
+    resourcesLink11.style.display = "flex";
+    open11 = true;
+  } else if (open11 === true) {
+    downArow11.style.transform = "rotate(0deg)";
+    resourcesLink11.style.display = "none";
+    downArow11.style.animation = "rotateclock 1s 1"    
+    open11 = false;
   }
 });
 
