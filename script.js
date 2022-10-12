@@ -54,6 +54,8 @@ const zeptoCode = document.querySelector(".cp-zepto");
 const zepto = document.querySelector("#zepto");
 const olaCode = document.querySelector(".cp-ola");
 const ola = document.querySelector("#ola");
+const blocksCode = document.querySelector(".cp-c-blocks");
+const codingB = document.querySelector("#c-blocks");
 
 
 let open1 = false;
@@ -291,6 +293,12 @@ zeptoCode.addEventListener("click" , function(){
 
 olaCode.addEventListener("click" , function(){
   navigator.clipboard.writeText(ola.textContent).then(() => {
+    alert("Copied to clipboard");
+})
+});
+
+blocksCode.addEventListener("click" , function(){
+  navigator.clipboard.writeText(codingB.textContent).then(() => {
     alert("Copied to clipboard");
 })
 });
