@@ -9,6 +9,8 @@ body {
   color:white;
   background-color: rgba(14, 2, 48, 0.249);
   font-family: 'Aref Ruqaa Ink', serif;
+  
+   /* font-family: 'Quicksand', sans-serif; */
 }
 
 .navbar{
@@ -22,8 +24,9 @@ body {
 .site-name{
   text-align: center;
   margin-top: -8px;
-  font-size: 18px;
+  font-size: 28px;
   animation: todown 1s 1;
+  font-family: 'Caveat', cursive;
 }
 
 .logo{
@@ -75,7 +78,10 @@ body {
   margin-top: 50px;
   box-shadow: 2px 2px 10px 2px inset black;
 }
-
+.community:hover{
+  transform: translate(20px);
+  transform: scale(1.2);
+}
 .hero , .below-hero , .r-1 , .r-1-link , .resources{
   display: flex;
   justify-content: center;
@@ -100,8 +106,14 @@ body {
   margin-top: 40px;
   border-radius: 50px;
   box-shadow: 2px 2px 10px 2px inset black;
-}
 
+}
+#laptops{
+  width: 330px;
+}
+.hidden:hover{
+  transform: scale(1.1);
+}
 
 .mobile{
   height: 680px;
@@ -110,7 +122,7 @@ body {
 .head{
   text-align: center;
   animation: slightrotate2 3s 10 ;
-  font-size: 24px;
+  font-size: 32px;
   margin: 12px;
 }
 
@@ -227,7 +239,7 @@ margin-bottom: 40px;
   color: white;
 }
 
-#r-1-1 , #r-1-2 , #r-1-3 , #r-1-4 ,#r-1-5,  #r-1-6,  #r-1-7 ,#r-1-8 ,#r-1-9 ,#r-1-10 , #r-1-11{
+#r-1-1 , #r-1-2 , #r-1-3 , #r-1-4 ,#r-1-5,  #r-1-6,  #r-1-7 ,#r-1-8 ,#r-1-9 ,#r-1-10 , #r-1-11 , #r-1-12{
   animation: tomenuright .5s 1;
   display: none;
 }
