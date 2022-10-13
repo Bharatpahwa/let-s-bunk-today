@@ -9,8 +9,7 @@ body {
   color:white;
   background-color: rgba(14, 2, 48, 0.249);
   font-family: 'Aref Ruqaa Ink', serif;
-  
-   /* font-family: 'Quicksand', sans-serif; */
+
 }
 
 .navbar{
@@ -26,7 +25,6 @@ body {
   margin-top: -8px;
   font-size: 28px;
   animation: todown 1s 1;
-  font-family: 'Caveat', cursive;
 }
 
 .logo{
