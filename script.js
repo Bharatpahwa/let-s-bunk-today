@@ -49,6 +49,9 @@ const resourcesLink11 = document.querySelector("#r-1-11");
 const downArow12 = document.querySelector("#downarrow-12");
 const resourcesLink12 = document.querySelector("#r-1-12");
 
+const downArow13 = document.querySelector("#downarrow-13");
+const resourcesLink13 = document.querySelector("#r-1-13");
+
 const rapidoCode = document.querySelector(".cp-rapido");
 const AmazonPayCode = document.querySelector(".cp-amazon");
 const AmazonPay = document.querySelector("#amazon-pay-code");
@@ -74,6 +77,7 @@ let open9 = false;
 let open10 = false;
 let open11 = false;
 let open12 = false;
+let open13 = false;
 
 menu.addEventListener("click", function(){
   if(openmenu.checked){
@@ -288,6 +292,20 @@ downArow12.addEventListener("click", function () {
     resourcesLink12.style.display = "none";
     downArow12.style.animation = "rotateclock 1s 1"    
     open12 = false;
+  }
+});
+
+downArow13.addEventListener("click", function () {
+  if (open13 === false) {
+    downArow13.style.transform = "rotate(180deg)";
+    downArow13.style.animation = "antirotateclock 1s 1"
+    resourcesLink13.style.display = "flex";
+    open13 = true;
+  } else if (open13 === true) {
+    downArow13.style.transform = "rotate(0deg)";
+    resourcesLink13.style.display = "none";
+    downArow13.style.animation = "rotateclock 1s 1"    
+    open13 = false;
   }
 });
 
