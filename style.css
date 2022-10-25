@@ -106,8 +106,9 @@ body {
   box-shadow: 2px 2px 10px 2px inset black;
 
 }
-#laptops{
+.lap{
   width: 330px;
+  margin: 20px;
 }
 .hidden:hover{
   transform: scale(1.1);
@@ -241,6 +242,10 @@ margin-bottom: 40px;
   animation: tomenuright .5s 1;
   display: none;
 }
+/* #lap-7 , #lap-3 , #lap-4 ,#lap-5,  #lap-6,  #lap-8 ,#lap-9  ,#lap-10{
+  animation: tomenuright .5s 1;
+  display: none;
+} */
 
 .whatsapp{
   animation: community 1s infinite ;
@@ -381,4 +386,41 @@ border: 1px solid white;
   height: 200px;
   border-radius: 20px;
   margin: 10px 0px 10px ;
+}
+
+.laptops{
+  border-radius: 30px;
+}
+
+.lappy{
+  padding: 10px;
+
+}
+.laptops-section{
+  display: flex;
+  align-items: center;
+  gap: -110px;
+  overflow: scroll;
+  overflow-y: hidden; 
+  /* overflow-x: hidden; */
+  width: 390px;
+  padding: -20px;
+}
+
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.laptops-section::-webkit-scrollbar {
+  display: none;
+}
+
+.laptops-section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#right-arrow{
+  height: 30px;
+  cursor: pointer;
+  margin-top: -20px;
+  animation: rightalways 3s infinite;
 }

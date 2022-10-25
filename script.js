@@ -5,6 +5,7 @@ const Sidemenu = document.querySelector(".side-menu");
 const hidden = document.querySelector(".hidden");
 const downArow = document.querySelector("#downarrow-1");
 const resourcesLink = document.querySelector("#r-1-1");
+const laptoparrow = document.querySelector("#right-arrow");
 
 const home = document.querySelector("#menu-home");
 const secret = document.querySelector("#menu-secret");
@@ -337,4 +338,7 @@ blocksCode.addEventListener("click" , function(){
   navigator.clipboard.writeText(codingB.textContent).then(() => {
     alert("Copied to clipboard");
 })
+
 });
+
+
