@@ -425,3 +425,8 @@ border: 1px solid white;
   margin-top: -20px;
   animation: rightalways 3s infinite;
 }
+
+.lappy-section{
+  display: flex;
+  flex-direction: column;
+}
