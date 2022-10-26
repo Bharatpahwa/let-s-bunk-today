@@ -373,7 +373,7 @@ margin-bottom: 40px;
 }
 
 #feedback{
-margin:  80px auto 0px auto ;
+margin:  40px auto 0px auto ;
 background-color: #250339;
 border: 1px solid white;
 }
@@ -389,7 +389,7 @@ border: 1px solid white;
 }
 
 .laptops{
-  border-radius: 30px;
+  /* border-radius: 30px; */
 }
 
 .lappy{
