@@ -102,13 +102,13 @@
 @keyframes rightalways {
 
   0%{
-    transform: translateX(400px);
+    transform: translateX(187px);
 
   }
 
   
   100%{
-    transform: translateX(-400px);
+    transform: translateX(-187px);
     /* transform: rotate(180deg); */
   }
 

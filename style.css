@@ -422,11 +422,17 @@ border: 1px solid white;
 #right-arrow{
   height: 30px;
   cursor: pointer;
-  margin-top: -20px;
+  margin-top: -200px;
   animation: rightalways 3s infinite;
 }
 
 .lappy-section{
   display: flex;
   flex-direction: column;
+}
+
+.numvisits{
+  text-align: center;
+  background-color:#3F244F ;
+  padding: 10px;
 }

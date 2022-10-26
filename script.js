@@ -1,4 +1,8 @@
 "use strict";
+
+function websiteVisits(response) {
+  document.querySelector("#visits").textContent = response.value;
+}
 const menu = document.querySelector("#menuToggle");
 const openmenu = document.querySelector(".input-field");
 const Sidemenu = document.querySelector(".side-menu");
