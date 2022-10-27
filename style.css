@@ -74,7 +74,8 @@ body {
   background-color: #5c437165;
   border: 1px solid white;
   margin-top: 50px;
-  box-shadow: 2px 2px 10px 2px inset black;
+  /* box-shadow: 2px 2px 10px 2px inset black; */
+  background-image: linear-gradient( to left , rgb(36, 3, 83) , rgb(7, 2, 34) ,rgb(12, 3, 59));
 }
 .community:hover{
   transform: translate(20px);
@@ -95,7 +96,9 @@ body {
   cursor: pointer;
   filter: blur(2px);
   animation: shakey 1s infinite ;
-  background-color: #5c437165;
+  /* background-color: #5c437165;
+   */
+   background-image: linear-gradient( to left , rgb(36, 3, 83) , rgb(7, 2, 34) ,rgb(12, 3, 59));
   border: 1px solid white;
   text-align: center;
   padding: 10px;
@@ -183,9 +186,10 @@ margin-bottom: 40px;
 .r-1-link{
   /* box-shadow: 5px 5px 5px 2px  rgba(0, 0, 0, 0.859); */
   width: 300px;
+  border: 1px solid white;
   border-radius: 50px;
   padding: 12px;
-  background-color:#20fff439 ;
+  background-image: linear-gradient( to left , rgb(36, 3, 83) , rgb(7, 2, 34) ,rgb(12, 3, 59));
   gap: 10px;
   font-size: 18px;
   font-weight: 400;
@@ -194,7 +198,7 @@ margin-bottom: 40px;
 
 .shopping{
   text-decoration: none;
-  color: rgb(147, 219, 255);
+  color: rgb(178, 229, 255);
 }
 
 .go-to{
@@ -217,7 +221,7 @@ margin-bottom: 40px;
   margin-bottom: 40px;
 }
 .resources-heading{
-  box-shadow: 5px 5px 10px 4px inset rgba(0, 0, 0, 0.607);
+  /* box-shadow: 5px 5px 20px 4px inset rgba(0, 0, 0, 0.607); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -225,8 +229,8 @@ margin-bottom: 40px;
   width: 300px;
   border-radius: 50px;
   padding: 6px;
-  border: 1px solid white;
-  background-color: #5c437184;
+  border: 1px solid rgb(255, 255, 255);
+ background-image: linear-gradient( to left , rgb(23, 2, 53) ,rgb(12, 3, 59), rgb(7, 2, 34));
 }
 
 .resources{
@@ -322,7 +326,6 @@ margin-bottom: 40px;
 }
 
 .side-menu{
-  box-shadow: 5px 6px 5px 5px  rgba(33, 32, 32, 0.695);
   display: flex;
   flex-direction: column;
   gap: 20px;
