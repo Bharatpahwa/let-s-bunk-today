@@ -432,7 +432,6 @@ margin-bottom: 40px;
   padding: 10px;
 }
 
-
 .me-founder , .me{
   height: 140px;
   margin: 20px;
@@ -446,9 +445,6 @@ margin-bottom: 40px;
 .me{
   opacity: .1;
 }
-
-
-
 
 #instagram , #twitter , #linkedin , #github{
   height: 30px;
@@ -513,3 +509,4 @@ margin-bottom: 40px;
     -ms-overflow-style: none;
     scrollbar-width: none;  
   }
+
