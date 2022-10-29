@@ -432,7 +432,6 @@ margin-bottom: 40px;
   padding: 10px;
 }
 
-
 .me-founder , .me{
   height: 140px;
   margin: 20px;
@@ -446,9 +445,6 @@ margin-bottom: 40px;
 .me{
   opacity: .1;
 }
-
-
-
 
 #instagram , #twitter , #linkedin , #github{
   height: 30px;
@@ -474,7 +470,8 @@ margin-bottom: 40px;
 }
 
 .team-mem{
-  margin-top: 40px;
+  margin-top: 20px;
+  font-size: 22px;
 }
 
 .socials:hover{
@@ -489,10 +486,17 @@ margin-bottom: 40px;
   margin-top: 7px;
 }
 
+.name {
+  border: 1px solid black;
+  border-radius: 200px;
+  padding: 3px 3px 5px 3px ;
+  background-color: #1a0427;
+  color: white;
+}
+
+
 #r-1-18{
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
   overflow: scroll;
   align-items: center;
@@ -513,3 +517,10 @@ margin-bottom: 40px;
     -ms-overflow-style: none;
     scrollbar-width: none;  
   }
+
+<<<<<<< HEAD
+  #team-1{
+    margin-left: 1650px;
+  }
+=======
+>>>>>>> d5fada5a85c5d2bb81c510c9aa303f5e17bc41dd
