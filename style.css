@@ -442,9 +442,7 @@ margin-bottom: 40px;
   box-shadow: 2px 2px 20px 2px inset rgba(164, 164, 164, 0.704);
 }
 
-.me{
-  opacity: .1;
-}
+
 
 #instagram , #twitter , #linkedin , #github{
   height: 30px;
@@ -519,6 +517,6 @@ margin-bottom: 40px;
   }
 
   #team-1{
-    margin-left: 1650px;
+    margin-left: 250px;
   }
 
