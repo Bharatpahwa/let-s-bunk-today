@@ -527,7 +527,7 @@ margin-bottom: 40px;
   .block{
     /* width: 2px; */
     margin-top: 20px;
-    padding: 2px;
+    padding: 1px;
     border-radius: 300px;
     background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
       #0000ff, #00ff00,#ffff00, #ff0000);
