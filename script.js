@@ -24,9 +24,14 @@ const home = document.querySelector("#menu-home");
 const secret = document.querySelector("#menu-secret");
 const resources = document.querySelector("#menu-resources");
 const reachus = document.querySelector("#menu-reachus");
+const founders = document.querySelector("#menu-founder");
+const campusa= document.querySelector("#menu-campus");
 const footersection = document.querySelector(".whole-footer");
 const resourcessection = document.querySelector(".head");
+const campussection = document.querySelector(".team-mem");
+const foundersection = document.querySelector("#r-1-17");
 const secretSection = document.querySelector(".below-hero");
+const HomeSection = document.querySelector("#nav-top");
 const WholeSection = document.querySelector(".screen-part1");
 const toTop = document.querySelector(".totop");
 
@@ -119,6 +124,17 @@ toTop.addEventListener("click", function () {
 
 resources.addEventListener("click", function () {
   resourcessection.scrollIntoView({ behavior: "smooth" });
+  open = false;
+});
+
+
+founders.addEventListener("click", function () {
+  foundersection.scrollIntoView({ behavior: "smooth" });
+  open = false;
+});
+
+toTop.addEventListener("click", function () {
+ HomeSection.scrollIntoView({ behavior: "smooth" });
   open = false;
 });
 

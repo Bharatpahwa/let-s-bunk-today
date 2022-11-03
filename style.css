@@ -37,7 +37,7 @@ body {
 .main-heading {
   text-align: center;
   padding: 25px 0px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   width: 360px;
   font-size: 24px;
   animation: todown .3s  linear ;
@@ -211,7 +211,7 @@ margin-bottom: 40px;
  
 }
 .resources{
-  margin-top: 30px;
+  margin-top: -30px;
 }
 
 .head{
@@ -224,12 +224,12 @@ margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   width: 300px;
-  border-radius: 50px;
+  border-radius: 2200px;
   padding: 6px;
-  background-color:#3F244F;
-  border: 1px solid rgb(255, 255, 255);
+  background-color:#07001c;
+  /* border: 1px solid rgb(255, 255, 255); */
 }
 
 .resources{
@@ -255,7 +255,7 @@ margin-bottom: 40px;
   animation: community 1s infinite ;
 }
 
-#telegram{
+#telegram, #linkedin , #instagram , #twitter , #github{
   animation: community 1s infinite 2s ;
 }
 
@@ -414,6 +414,10 @@ margin-bottom: 40px;
   scrollbar-width: none;  
 }
 
+.laptops{
+  margin-left: -20px;
+}
+
 #right-arrow{
   height: 30px;
   cursor: pointer;
@@ -443,7 +447,6 @@ margin-bottom: 40px;
 }
 
 
-
 #instagram , #twitter , #linkedin , #github{
   height: 30px;
   margin: 8px;
@@ -469,6 +472,7 @@ margin-bottom: 40px;
 
 .team-mem{
   margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 22px;
 }
 
@@ -490,6 +494,7 @@ margin-bottom: 40px;
   padding: 3px 3px 5px 3px ;
   background-color: #1a0427;
   color: white;
+  font-weight: 100;
 }
 
 #r-1-18{
@@ -519,3 +524,32 @@ margin-bottom: 40px;
     margin-left: 500px;
   }
 
+  .block{
+    /* width: 2px; */
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 300px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 200%;
+    animation: steam 10s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+  .block:after {
+    filter: blur(50px);
+  }
+  .des-top{
+margin-top: 20px;
+  }
