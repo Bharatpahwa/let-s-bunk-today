@@ -1,5 +1,5 @@
 "use strict";
-
+// alert("Increase Brighness For better experience");
 function websiteVisits(response) {
   document.querySelector("#visits").textContent = response.value;
 }
