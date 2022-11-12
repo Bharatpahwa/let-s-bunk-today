@@ -527,10 +527,11 @@ margin-bottom: 40px;
   .block{
     /* width: 2px; */
     margin-top: 20px;
-    padding: 2px;
+    padding: 1px;
     border-radius: 300px;
-    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-      #0000ff, #00ff00,#ffff00, #ff0000);
+    /* background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000); */
+      background-color: white;
     background-size: 200%;
     animation: steam 10s linear infinite;
   }
@@ -584,3 +585,27 @@ margin-top: 20px;
     #team-new{
       margin-left: 1340px;
     }
+
+    #r-1-20{
+      display: flex;
+      flex-direction: row;
+      overflow: scroll;
+      align-items: center;
+      overflow-y: hidden; 
+      width: 360px;
+      margin: auto;
+      }
+  
+      #r-1-20::-webkit-scrollbar {
+        display: none;
+      }
+      
+      #r-1-20 {
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+      }
+
+      #team-new2{
+        margin-left: 1060px;
+      }
+
