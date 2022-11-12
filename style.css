@@ -228,7 +228,7 @@ margin-bottom: 40px;
   width: 300px;
   border-radius: 2200px;
   padding: 6px;
-  background-color:#07001c;
+  background-color:#2e0a4d;
   /* border: 1px solid rgb(255, 255, 255); */
 }
 
@@ -540,7 +540,7 @@ margin-bottom: 40px;
       background-position: 0 0;
     }
     50% {
-      background-position: 400% 0;
+      background-position: 100% 0;
     }
     100% {
       background-position: 0 0;
@@ -553,3 +553,33 @@ margin-bottom: 40px;
   .des-top{
 margin-top: 20px;
   }
+
+
+  #expressions , #affinity, #aayaam , #fim, #keyara, #lb{
+    height: 150px;
+    padding: 0px;
+  }
+
+
+  #r-1-19{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    align-items: center;
+    overflow-y: hidden; 
+    width: 360px;
+    margin: auto;
+    }
+
+    #r-1-19::-webkit-scrollbar {
+      display: none;
+    }
+    
+    #r-1-19 {
+      -ms-overflow-style: none;
+      scrollbar-width: none;  
+    }
+
+    #team-new{
+      margin-left: 1380px;
+    }
