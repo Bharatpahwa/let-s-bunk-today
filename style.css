@@ -542,6 +542,7 @@ margin-bottom: 40px;
     }
     50% {
       background-position: 100% 0;
+
     }
     100% {
       background-position: 0 0;
@@ -607,3 +608,4 @@ margin-top: 20px;
       #team-new2{
         margin-left: 1060px;
       }
+
