@@ -8,7 +8,8 @@ body {
   margin: auto;
   color:white;
   background-color: rgba(14, 2, 48, 0.249);
-  font-family: 'Aref Ruqaa Ink', serif;
+  /* font-family: 'Aref Ruqaa Ink', serif; */
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .navbar{
@@ -19,11 +20,17 @@ body {
   padding: 18px 18px;
 }
 
+.nav-items {
+  display: none;
+}
+
+
 .site-name{
   text-align: center;
   margin-top: -8px;
   font-size: 18px;
   animation: todown 1s 1;
+  font-family: 'Aref Ruqaa Ink', serif;
 }
 
 .logo{
@@ -38,6 +45,7 @@ body {
   text-align: center;
   padding: 25px 0px;
   /* margin-bottom: 20px; */
+  font-family: 'Aref Ruqaa Ink', serif;
   width: 360px;
   font-size: 24px;
   animation: todown .3s  linear ;
@@ -96,6 +104,7 @@ body {
   cursor: pointer;
   filter: blur(2px);
   animation: shakey 1s infinite ;
+  font-family: 'Aref Ruqaa Ink', serif;
   background-color:#70469165;
   border: 1px solid white;
   text-align: center;
@@ -210,9 +219,9 @@ margin-bottom: 40px;
   margin-left: 10px;
  
 }
-.resources{
-  margin-top: -30px;
-}
+  .resources{
+    margin-top: -30px;
+  }
 
 .head{
   margin-top: -30px;
