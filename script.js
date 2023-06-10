@@ -146,7 +146,7 @@ reachus.addEventListener("click", function () {
 hidden.addEventListener("click", function () {
   hidden.style.filter = "none";
   hidden.textContent =
-    "ans : bharat0709 , git ";
+    "Bit.ly/Level-3";
 });
 
 downArow.addEventListener("click", function () {
