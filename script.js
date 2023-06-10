@@ -146,7 +146,7 @@ reachus.addEventListener("click", function () {
 hidden.addEventListener("click", function () {
   hidden.style.filter = "none";
   hidden.textContent =
-    "College teaches you everything except how useless college is.";
+    "ans : bharat0709 , git ";
 });
 
 downArow.addEventListener("click", function () {
